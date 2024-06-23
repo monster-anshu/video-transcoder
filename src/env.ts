@@ -1,0 +1,8 @@
+export const {
+  AWS_ACCESS_KEY_ID,
+  AWS_SECRET_ACCESS_KEY,
+  ORIGINAL_VIDEO_BUCKET,
+  TRANSCODED_VIDEO_BUCKET,
+  SQS_URL,
+  AWS_DEFAULT_REGION,
+} = process.env as Record<string, string>;

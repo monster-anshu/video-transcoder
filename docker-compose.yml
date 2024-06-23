@@ -1,0 +1,10 @@
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: nest-docker
+    stdin_open: true
+    tty: true
+    volumes:
+      - .:/home/app
